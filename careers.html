@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Careers at VisionTech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Join Our Team – Careers</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <section id="careers">
+    <h2>Open Positions</h2>
+    <div class="job">
+      <h3>Frontend Developer</h3>
+      <p>2+ years experience in React/JavaScript. Remote friendly.</p>
+      <button onclick="apply('Frontend Developer')">Apply</button>
+    </div>
+    <div class="job">
+      <h3>Cloud Engineer</h3>
+      <p>AWS/GCP expertise preferred. Full-time.</p>
+      <button onclick="apply('Cloud Engineer')">Apply</button>
+    </div>
+  </section>
+
+  <script>
+    function apply(position) {
+      alert("You clicked to apply for " + position + ". Email your resume to careers@visiontech.com");
+    }
+  </script>
+</body>
+</html>
